@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-run-app &> /vagrant/gae.log &
+run-app &> /var/log/gae/gae.log &
 
 disown -h
 
