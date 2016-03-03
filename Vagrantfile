@@ -10,5 +10,9 @@ Vagrant.configure(2) do |config|
   config.vm.network "forwarded_port", guest: 8080, host: 8080
   config.vm.network "forwarded_port", guest: 8000, host: 8000
 
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = "2048"
+  end
+
   config.vm.provision :shell, :privileged => false,  :path => "bin/startup.sh", :run => 'always'
 end
