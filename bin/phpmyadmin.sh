@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Description: Script file to install PhpMyAdmin inside Vagrant box(jankrib/ubuntu-gae-php)
-#              And configure with apache2 to work on port 8888, username root password vagrant
+#              and configure with apache2 to work on port 8888, username root password vagrant
 # Author: Abdelaziz Elrashed(aeemh.sdn@gmail.com)
-# Date: 10-03-2016 13:00 GMT+3
+# Created Date: 10-03-2016 13:00 GMT+3
 
 # new line variable
 nl='
