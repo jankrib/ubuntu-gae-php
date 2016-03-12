@@ -16,6 +16,8 @@ http://127.0.0.1:8000
 
 PhpMyAdmin is available at:
 http://127.0.0.1:8888
+
 User name: root
+
 Password: vagrant
 
